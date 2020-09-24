@@ -1,0 +1,12 @@
+.dashboard {
+    height: 100%;
+}
+.sideBar {
+}
+.notes {
+    background-color: yellow;
+}
+
+.appBar {
+    height: fit-content;
+}
