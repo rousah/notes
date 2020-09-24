@@ -4,6 +4,7 @@ import './index.css';
 import Dashboard from './Dashboard/Dashboard.js'
 import { ThemeProvider } from '@material-ui/core/styles'
 import { theme } from './theme'
+import CssBaseline from '@material-ui/core/CssBaseline'
 
 class Square extends React.Component {
     render() {
@@ -50,6 +51,7 @@ class Board extends React.Component {
 
 ReactDOM.render(
     <ThemeProvider theme={theme}>
+        <CssBaseline />
         <Dashboard />
     </ThemeProvider>,
     document.getElementById('root')

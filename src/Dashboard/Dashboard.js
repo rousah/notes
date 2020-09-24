@@ -7,11 +7,11 @@ class Dashboard extends React.Component {
     render() {
         return (
             <Grid container className="dashboard" direction="row">
-                <Grid container item xs={2} spacing={0} className="sideBar" style={{background:theme.palette.secondary}}>
+                <Grid container item xs={2} spacing={0} className="sideBar" style={{background:theme.palette.secondary.main}}>
                     Hey
                 </Grid>
-                <Grid container item xs={10} spacing={0} className="notes">
-                    <AppBar position="static" className="appBar">
+                <Grid container item xs={10} spacing={0} className="notes" style={{background:theme.palette.background.main}}>
+                    <AppBar position="static" className="appBar" style={{background:theme.palette.primary.main}}>
                         <Toolbar>
                             <Box display='flex' flexGrow={1}>
                                 {/* whatever is on the left side */}
